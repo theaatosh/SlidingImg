@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* #sliding_con{
+height: 60%;
+width: 60%;
+background-size:cover;
+background-image: url('../images/1.png');
+animation: myanim 20s linear infinite;
+box-shadow: 30px 20px 30px solid black;
+}
+
+@keyframes myanim{
+25% {
+    background-image: url('../images/2.jpg');
+}
+50%{
+    background-image: url('../images/3.jpg');
+}
+100%{
+    background-image: url('../images/2.jpg');
+}
+} */
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    background-image: url('../images/4.jpg');
+    background-size: contain;
+    background-clip: text;
+    /* -webkit-background-clip: text; */
+    color: transparent;
+}
+main{
+height: 550px;
+width: 80%;
+margin: auto;
+
+box-shadow: 20px 20px 20px grey;
+position: relative; 
+}
+.sli_img{
+position: absolute;
+height: 100%;
+width: 100%;
+}
+
+.fa-solid {
+font-size: 100px;
+}
+#btn1{
+   position: absolute;
+   top:250px;
+display: inline-block;
+height: 100px;
+cursor: pointer;
+background-color: rgba(255, 255, 255, 0.482);
+}
+#btn2{
+position: absolute;
+right: 0px;
+top:250px;
+display: inline-block;
+height: 100px;
+cursor: pointer;
+background-color: rgba(255, 255, 255, 0.482);
+}
+
+
+#radio-con{
+    position: absolute;
+    bottom: 4px;
+    left: 40%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 20px;
+
+}
+.radio-btn{
+   appearance: none;
+   height: 15px;
+   width: 15px;
+   padding: 10px;
+   border: 2px solid rgb(247, 244, 244);
+   border-radius: 50%;
+   margin:0px 10px;
+}
+
+.slide-radio-btn{
+    background-color: rgb(246, 248, 246);
+}
+
